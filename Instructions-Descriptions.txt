@@ -1,0 +1,5 @@
+///// Requirements ////////////////////////
+node, npm, npx, git
+$ sudo apt install nodejs
+$ sudo npm install npx -g
+///////////////////////////////////////
