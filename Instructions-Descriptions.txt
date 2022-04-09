@@ -23,4 +23,10 @@ In practice, data come in the form of an array from a server and components
 
  React expects a unique key for each component. So, let's define a key for each food component. 
 
+ One important point that must be taken into account is that typechecking is so important for React components. This is
+ true because sometimes we use components with wrong props and it fails to work properly without throwing an error on 
+ Js console. To alleviate this proplem, there is a package called prop-types. In this commit we show how to use it with Reac
+ components. 
+ $ npm i prop-types
+
 ////////////////////////////////////////
