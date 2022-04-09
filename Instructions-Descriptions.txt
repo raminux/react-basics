@@ -21,4 +21,6 @@ In practice, data come in the form of an array from a server and components
  need to be created automatically not manually. We can use javascript map method 
  to create components magically!
 
+ React expects a unique key for each component. So, let's define a key for each food component. 
+
 ////////////////////////////////////////

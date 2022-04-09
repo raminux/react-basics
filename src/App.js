@@ -8,15 +8,15 @@ function Food({ name, picture }) {
 }
 
 const foodILike = [
-  { name: 'Salad', picture: 'https://wp-cdn.lingokids.com/wp-content/uploads/2020/11/20182F012F232F082F532F372F634819c1-ce43-458a-8682-0ecabb2bfd0f2FSalad.png' },
-  { name: 'Sandwich', picture: 'https://wp-cdn.lingokids.com/wp-content/uploads/2020/11/20182F012F232F082F532F152F57431742-cd03-4030-86b0-6912ed51b4952FSandwich.png' },
-  { name: 'Grape juice', picture: 'https://wp-cdn.lingokids.com/wp-content/uploads/2020/11/20172F112F302F152F442F132F9c6d8774-1e77-44c4-a16f-ac59c149ac0d2FGrapeJuice.png' }
+  { id: 1, name: 'Salad', picture: 'https://wp-cdn.lingokids.com/wp-content/uploads/2020/11/20182F012F232F082F532F372F634819c1-ce43-458a-8682-0ecabb2bfd0f2FSalad.png' },
+  { id: 2, name: 'Sandwich', picture: 'https://wp-cdn.lingokids.com/wp-content/uploads/2020/11/20182F012F232F082F532F152F57431742-cd03-4030-86b0-6912ed51b4952FSandwich.png' },
+  { id: 3, name: 'Grape juice', picture: 'https://wp-cdn.lingokids.com/wp-content/uploads/2020/11/20172F112F302F152F442F132F9c6d8774-1e77-44c4-a16f-ac59c149ac0d2FGrapeJuice.png' }
 ]
 
 function App() {
   return (
     <div className="App">
-      {foodILike.map((dish) => <Food name={dish.name} picture={dish.picture} />)}
+      {foodILike.map((dish) => <Food key={dish.id} name={dish.name} picture={dish.picture} />)}
     </div>
   );
 }
