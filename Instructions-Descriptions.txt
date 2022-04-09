@@ -13,4 +13,7 @@ $ npm start
 React component is a function that returns html. This combination between JavaScript and 
 html is called JSX such as <App />. React application only renders one component <App />. So, 
 we should put our custom components inside the <App /> components or other components. 
+
+React is nice because we can build reusable components and use them in various projects.
+This is fantastic! So let's build a simple Food component and pass props to it. 
 ////////////////////////////////////////
