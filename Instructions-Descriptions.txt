@@ -8,3 +8,9 @@ $ sudo npm install npx -g
 $ npx create-react-app .
 $ npm start
 /////////////////////////////////////////
+
+///// React component ///////////////////
+React component is a function that returns html. This combination between JavaScript and 
+html is called JSX such as <App />. React application only renders one component <App />. So, 
+we should put our custom components inside the <App /> components or other components. 
+////////////////////////////////////////
