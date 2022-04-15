@@ -44,3 +44,11 @@ constructor  --> render --> componentDidMount --> (if setState) componentDidUpda
 There are some other middle methods that are not used frequently, so I didn't mention them here.
 Please refer to reactjs website for mor information. 
 ///////////////////////////////////////////////////////////////////
+
+////////////////////// Movie app /////////////////////////////////////
+To build the Movie app we need data. To acquire data, we use JavaScript axios function to fetch 
+data from an API.
+$ npm i axios
+
+
+/////////////////////////////////////////////////////////////////////
