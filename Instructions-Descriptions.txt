@@ -39,4 +39,8 @@ to define a class called App that extends React.Component.
 There is a method called setState() which can be used to update the state of a variable or 
 component. Every time you call this method, the render method will be called automatically. 
 
+Component lifecycle methods:
+constructor --> componentDidMount --> render --> (if setState) componentDidUpdate --> componentWillUnmount.
+There are some other middle methods that are not used frequently, so I didn't mention them here.
+Please refer to reactjs website for mor information. 
 ///////////////////////////////////////////////////////////////////
