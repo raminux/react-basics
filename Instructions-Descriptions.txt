@@ -30,3 +30,10 @@ In practice, data come in the form of an array from a server and components
  $ npm i prop-types
 
 ////////////////////////////////////////
+
+//// React State //////////////////////////////////////////////////
+When dealing with dynamic data, it is better to user the concept of data. 
+This feature is enabled by using React.Component class. In other words, we have 
+to define a class called App that extends React.Component. 
+
+///////////////////////////////////////////////////////////////////
