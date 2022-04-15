@@ -49,6 +49,9 @@ Please refer to reactjs website for mor information.
 To build the Movie app we need data. To acquire data, we use JavaScript axios function to fetch 
 data from an API.
 $ npm i axios
+After fetching data, it is necessary to feed them to the Movie Component to show them. Also, we need to
+style the different tags. It must be noted that React uses JSX which is different from html. 
+In JSX, className is used instead of 'class' in html. Because 'class' is a javascript class modifier.
 
 
 /////////////////////////////////////////////////////////////////////
