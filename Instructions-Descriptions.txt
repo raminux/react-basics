@@ -36,4 +36,7 @@ When dealing with dynamic data, it is better to user the concept of data.
 This feature is enabled by using React.Component class. In other words, we have 
 to define a class called App that extends React.Component. 
 
+There is a method called setState() which can be used to update the state of a variable or 
+component. Every time you call this method, the render method will be called automatically. 
+
 ///////////////////////////////////////////////////////////////////
