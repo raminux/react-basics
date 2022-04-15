@@ -3,36 +3,23 @@ import React from 'react';
 class App extends React.Component {
 
   state = {
-    count: 0,
+    isLoading: true,
   };
 
-  constructor(props) {
-    super(props);
-    console.log("constrcutor called");
-  }
+
   componentDidMount() {
-    console.log("didMount called");
-  }
-  componentDidUpdate() {
-    console.log("didUpdate called");
-  }
-
-  componentWillUnmount() {
-    console.log("willUnmount called");
+    setTimeout(() => {
+      this.setState({ isLoading: false });
+    }, 6000);
   }
 
-  add = () => {
-    this.setState(currentState => ({ count: currentState.count + 1 }));
-  }
-  minus = () => {
-    this.setState(currentState => ({ count: currentState.count - 1 }));
-  }
+
   render() {
-    console.log("render called");
+
+    const { isLoading } = this.state;
+
     return <div>
-      <h1>The number is: {this.state.count} </h1>
-      <button onClick={this.add}>Add</button>
-      <button onClick={this.minus}>Minus</button>
+      {isLoading ? "Loading..." : "We are ready"}
     </div>;
   }
 }
