@@ -53,5 +53,17 @@ After fetching data, it is necessary to feed them to the Movie Component to show
 style the different tags. It must be noted that React uses JSX which is different from html. 
 In JSX, className is used instead of 'class' in html. Because 'class' is a javascript class modifier.
 
+/////////////////////////////////////////////////////////////////////
+
+//// How to show Website on Github //////////////////////////////////
+First of all, we need to install gh-pages as below:
+$ npm i gh-pages
+
+Then, 'homepage' parameter must be added to the package.json file as:
+
+Finally, the following configs must be addded to the package.json:
+
+"deploy": "gh-pages -d build",
+"predeploy": "npm run build",
 
 /////////////////////////////////////////////////////////////////////
